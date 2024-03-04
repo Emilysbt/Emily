@@ -1,0 +1,193 @@
+body{
+    background-color: #dbd4d4;
+}
+*{
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    margin-left: 13cm;
+    text-align: center;
+    margin-bottom: 1cm;
+}
+h1  {
+    color: #39080B;
+    font-size: 50pt;
+    text-align: center;
+}
+.grid-container {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+}
+/* Create a column layout with Flexbox */
+.item1 {
+    display: flex;
+    background-color: #39080B;
+  }
+  li a{
+    font-family: arial;
+    color: white;
+  }
+  /* Left column (menu) */
+  .left {
+    flex: 35%;
+  }
+  
+  .left h2 {
+    padding-left: 8px;
+  }
+  
+  /* Right column (page content) */
+  .right {
+    flex:55%;
+    background-color: #39080B;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+  }
+  /* Style the search box */
+  #mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    margin-bottom: 1cm;
+    border: 1px solid #39080B;
+  }
+  
+  /* Style the navigation menu inside the left column */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #39080B;
+  }
+  
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #39080B;
+  }
+  h2{
+    color: white;
+    font-family: arial;
+  }
+  a{
+    color: white;
+  }
+  p{
+    color: white;
+  }
+  p4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #39080B;
+    font-size:10pt;
+    text-align: center;
+  }
+  .card1 {
+    font-family: arial;
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #39080B;
+  }
+  .card2 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .card3 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    padding: 10px; 
+    cursor: pointer;
+  }
+  .card4 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .card5 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .card6 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .card7 {
+    font-family: arial;
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #39080B;
+  }
+  .card8 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .card9 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    padding: 10px; 
+    cursor: pointer;
+  }
+  .card10 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .card11 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .card12 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+  } 
+  .item14{
+    grid-column: 1/10;
+    text-align: center;
+    margin-top: 2cm;
+  }
+  p6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:8pt;
+    text-align: center;
+  }   
+  p7 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #39080B;
+    font-size:12pt;
+    text-align: center;
+
+  }   

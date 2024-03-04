@@ -1,0 +1,280 @@
+*{
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #dbd4d4;
+}
+.container{
+  padding-top: 10px;
+  text-align: center;
+}
+header{
+  display: flex;
+  margin-left: 15cm;
+  text-align: center;
+}
+h1  {
+  color: #39080B;
+  font-size: 50pt;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  gap: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+.Navigationsbar {
+  grid-column: 1 / 10;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #39080B;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li {
+  float: left;
+  background-color: #39080B;
+}
+li a {
+  display: block;
+  color: white;
+  font-size: 20pt;
+  background-color: #39080B;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li b {
+  display: block;
+  color: white;
+  font-size: 20pt;
+  background-color: #39080B;
+  text-decoration: none;
+  cursor: pointer;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li a:hover {
+  background-color: #39080B;
+}
+.Startbild {
+  grid-column: 1 / 10;
+}
+.item3 {
+  grid-column: 1/ 10;
+  text-align: center;
+  margin-top: 1cm;
+}
+p1 {
+  color: #39080B;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20pt;
+  text-align: center;
+}
+.item4 {
+  grid-column: 1 / 4;
+  text-align: center;
+}
+.item5 {
+  grid-column: 4 / 10;
+  text-align: center;
+  margin-top: 3cm;
+}
+h2 {
+  color: #39080B;
+  padding-bottom: 10px; 
+  font-weight: 60px;
+  font-size: 30pt;
+}
+p3 {
+  color: #39080B;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15pt;
+  text-align: center;
+}
+.button1 {
+  background-color: #39080B; 
+  border: none;
+  color: white;
+  margin-top: 1cm;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.item6 {
+  grid-column: 1 / 7;
+  text-align: center;
+  margin-top: 1cm;
+}
+.button2 {
+  background-color: #39080B; 
+  border: none;
+  margin-top: 1cm;
+  color: white;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.item7 {
+  grid-column: 7 / 10;
+}
+.item8 {
+  background-color: #39080B;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column: 1/10;
+}
+p4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #39080B;
+  font-size:8pt;
+  text-align: center;
+}
+a{
+  background-color: #39080B;
+  color: white;
+  text-decoration: none;
+}
+.card1 {
+  font-family: arial;
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #39080B;
+}
+.card2 {
+  font-family: arial;
+  background-color: #39080B;
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+.card3 {
+  font-family: arial;
+  background-color: #39080B;
+  flex: 1;
+  padding: 10px; 
+  cursor: pointer;
+}
+.card4 {
+  font-family: arial;
+  background-color: #39080B;
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+.card5 {
+  font-family: arial;
+  background-color: #39080B;
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+.card6 {
+  font-family: arial;
+  background-color: #39080B;
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+.item9 {
+  grid-column: 1 / 4;
+ text-align: center;
+ margin-top: 2cm;
+}
+.item10 {
+  grid-column: 4 / 10;
+  text-align: center;
+  margin-top: 4cm;
+}
+.item11 {
+  grid-column: 1 / 7;
+  margin-top: 3cm;
+}
+.item12 {
+  grid-column: 7 / 10;
+
+}
+.Footer {
+    text-align: center;
+    padding: 3px;
+    color: #39080B;
+    grid-column: 1 / 10;
+    margin-top: 2cm;
+}
+h3 {
+  color: #39080B;
+  font-size: 20pt;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+p5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #39080B;
+  font-size:12pt;
+  text-align: center;
+}
+p7 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #39080B;
+  font-size:12pt;
+  text-align: center;
+}
+.Email-bar {
+  display: -ms-flexbox; /* IE10 */
+  display: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  padding: 10px;
+  color: #39080B;
+  min-width: 50px;
+  text-align: center;
+}
+.Anmeldung {
+  background-color: #39080B;
+  color: white;
+  display: inline-block;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+.Anmeldung:hover {
+  opacity: 0.7;
+}
+.input-field {
+    width: 30%;
+    padding: 10px;
+    outline: none;
+}
+.input-field:focus {
+    border: 2px solid #dbd4d4;
+}
+.item14{
+  margin-top: 1cm;
+}
+p6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:8pt;
+  text-align: center;
+}  
+
+
+
+
+
+

@@ -1,0 +1,229 @@
+*{
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #dbd4d4;
+}
+
+header{
+    display: flex;
+    margin-left: 13cm;
+    text-align: center;
+}
+h1  {
+    color: #39080B;
+    font-size: 50pt;
+    text-align: center;
+}
+.grid-container {
+display: grid;
+   grid-template-columns: auto auto auto auto;
+   
+}
+
+.Navigationsbar {
+    grid-column: 1 / 10;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #39080B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li {
+    float: left;
+    background-color: #39080B;
+}
+li a {
+    display: block;
+    color: white;
+    font-size: 20pt;
+    background-color: #39080B;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li b {
+    display: block;
+    color: white;
+    font-size: 15spt;
+    background-color: #39080B;
+    text-decoration: none;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li a:hover {
+    background-color: #39080B;
+}
+.item1 {
+    grid-column: 1 / 6;
+    text-align: center;
+    margin-top: 2cm;
+}
+.item2 {
+    grid-column: 6/ 9;
+    text-align: center;
+    margin-top: 5cm;
+}
+h2 {
+    color: #39080B;
+    padding-bottom: 10px; 
+    font-weight: 60px;
+    font-size: 35pt;
+}
+p1 {
+    color: #39080B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15pt;
+    text-align: center;
+}
+.item3 {
+    grid-column: 1 / 10;
+    text-align: center;
+    margin-top: 3cm;
+} 
+h3 {
+    color: #39080B;
+    padding-bottom: 10px; 
+    font-weight: 60px;
+    font-size: 25pt;
+    margin-top: 2cm;
+}
+
+.item8 {
+    background-color: #39080B;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/10;
+    text-align: center;
+  }
+  p2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #39080B;
+    font-size:15pt;
+    text-align: center;
+  }
+  .card1 {
+    font-family: arial;
+    flex: 1;
+    cursor: pointer;
+    background-color: #39080B;
+  }
+  .card2 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    cursor: pointer;
+  }
+  .card3 {
+    font-family: arial;
+    background-color: #39080B;
+    flex: 1;
+    cursor: pointer;
+  }
+  
+.item4{
+    grid-template-rows: auto;
+    text-align: center;
+}
+.item5 {
+    grid-column: 2 / 4;
+    text-align: center;
+  }
+  .item6 {
+    grid-column: 4 / 6;
+    text-align: center;
+  }
+  .item7 {
+    grid-column: 6 / 8;
+    text-align: center;
+  }
+  .button {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: #39080B; 
+    color: white; 
+    border: 2px solid #39080B;
+  }
+  
+  .button1:hover {
+    background-color: grey;
+    color: white;
+  }
+  
+
+.Footer {
+    text-align: center;
+    padding: 3px;
+    color: #39080B;
+    grid-column: 1 / 10;
+    margin-top: 2cm;
+  }
+  h3 {
+  color: #39080B;
+  font-size: 20pt;
+  margin-top: auto;
+  margin-bottom: auto;
+  }
+  p5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #39080B;
+  font-size:12pt;
+  text-align: center;
+  }
+  p7 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #39080B;
+  font-size:12pt;
+  text-align: center;
+  }
+  .Email-bar {
+  display: -ms-flexbox; /* IE10 */
+  display: center;
+  width: 100%;
+  margin-bottom: 15px;
+  }
+  .icon {
+  padding: 10px;
+  color: #39080B;
+  min-width: 50px;
+  text-align: center;
+  }
+  .Anmeldung {
+  background-color: #39080B;
+  color: white;
+  display: inline-block;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+  }
+  .Anmeldung:hover {
+  opacity: 0.7;
+  }
+  .input-field {
+    width: 30%;
+    padding: 10px;
+    outline: none;
+  }
+  .input-field:focus {
+    border: 2px solid #dbd4d4;
+  }
+  .item14{
+  margin-top: 1cm;
+  }
+  p6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:8pt;
+  text-align: center;
+  }  

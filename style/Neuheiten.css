@@ -1,0 +1,317 @@
+*{
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #dbd4d4;
+}
+.container{
+  padding-top: 10px;
+  text-align: center;
+}
+header{
+  display: flex;
+  margin-left: 15cm;
+  text-align: center;
+}
+h1  {
+  color: #39080B;
+  font-size: 50pt;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  gap: 10px;
+  padding: 10px;
+}
+.grid-container > div {
+  font-size: 30px;
+}
+.Navigationsbar {
+  grid-column: 1 / 10;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #39080B;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li {
+  float: left;
+  background-color: #39080B;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 20pt;
+  background-color: #39080B;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li b {
+  display: block;
+  color: white;
+  font-size: 15pt;
+  background-color: #39080B;
+  text-decoration: none;
+  cursor: pointer;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li a:hover {
+  background-color: #39080B;
+}
+.icon-bar b {
+  float: right; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 15%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+.Überschrieft2 {
+  text-align: left;
+  grid-column: 1 / 10;
+  margin-top: 2cm;
+  margin-bottom: 1cm;
+}
+h4  {
+  color: #39080B;
+  font-size: 40pt;
+  text-align: left;
+}
+p3 {
+  color: #39080B;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+p2 {
+  color: #39080B;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+p1 {
+  color: #39080B;
+  font-size: 15px;
+  margin-top: 5cm;
+}
+p {
+  color: #39080B;
+  font-size: 35px;
+}
+.card1 {
+  font-family: arial;
+  text-align: center;
+  background-size: cover;
+  border-image: fill;
+  grid-column: 1/4;
+}
+.price1 {
+  color: rgb(80, 77, 77);
+  font-size: 22px;
+}
+.card1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #39080B;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card1 button:hover {
+  opacity: 0.7;
+}
+.card2 {
+  font-family: arial;
+  text-align: center;
+  background-size: cover;
+  border-image: fill;
+  grid-column: 4/7;
+} 
+.price2 {
+  color: rgb(80, 77, 77);
+  font-size: 22px;
+}
+.card2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #39080B;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card2 button:hover {
+  opacity: 0.7;
+}
+.card3 {
+  text-align: center;
+  font-family: arial;
+  grid-column: 7/10;
+}
+.price3 {
+  color: rgb(80, 77, 77);
+  font-size: 22px;
+}
+.card3 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #39080B;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card3 button:hover {
+  opacity: 0.7;
+}
+.card4 {
+  text-align: center;
+  font-family: arial;
+  grid-column: 1/4;
+}
+.price4 {
+  color: rgb(80, 77, 77);
+  font-size: 22px;
+}
+.card4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #39080B;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card4 button:hover {
+  opacity: 0.7;
+}
+.card5 {
+  text-align: center;
+  font-family: arial;
+  grid-column: 4/7;
+}
+.price5 {
+  color: rgb(80, 77, 77);
+  font-size: 22px;
+}
+.card5 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #39080B;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card5 button:hover {
+  opacity: 0.7;
+}
+.card6 {
+  text-align: center;
+  font-family: arial;
+  grid-column: 7/10;
+}
+.price6 {
+  color: rgb(80, 77, 77);
+  font-size: 22px;
+}
+.card6 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #39080B;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card6 button:hover {
+  opacity: 0.7;
+}
+.Footer {
+  text-align: center;
+  padding: 3px;
+  color: #39080B;
+  grid-column: 1 / 10;
+  margin-top: 2cm;
+}
+h3 {
+color: #39080B;
+font-size: 20pt;
+margin-top: auto;
+margin-bottom: auto;
+}
+p5 {
+font-family: Arial, Helvetica, sans-serif;
+color: #39080B;
+font-size:12pt;
+text-align: center;
+}
+p7 {
+font-family: Arial, Helvetica, sans-serif;
+color: #39080B;
+font-size:12pt;
+text-align: center;
+}
+.Email-bar {
+display: -ms-flexbox; /* IE10 */
+display: center;
+width: 100%;
+margin-bottom: 15px;
+}
+.icon {
+padding: 10px;
+color: #39080B;
+min-width: 50px;
+text-align: center;
+}
+.Anmeldung {
+background-color: #39080B;
+color: white;
+display: inline-block;
+padding: 15px 20px;
+border: none;
+cursor: pointer;
+width: 10%;
+opacity: 0.9;
+}
+.Anmeldung:hover {
+opacity: 0.7;
+}
+.input-field {
+  width: 30%;
+  padding: 10px;
+  outline: none;
+}
+.input-field:focus {
+  border: 2px solid #dbd4d4;
+}
+.item14{
+margin-top: 1cm;
+}
+p6 {
+font-family: Arial, Helvetica, sans-serif;
+font-size:8pt;
+text-align: center;
+}  
+
+
+
+
+
+
